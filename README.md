@@ -1,4 +1,4 @@
-# 🛌🏽 Sentiment Analysis on Tripadvisor reviews
+# Sentiment Analysis on Tripadvisor reviews
 
 ## Problem Description
 
@@ -34,7 +34,7 @@ This repo is organized as follows:
 - `/datasets` contains a local copy of the original dataset.
 - `/code` contains the different modules used to train and evaluate different models.
 
-## 👨‍💻 Implementation 
+## Implementation 
 
 Inside `models.py` are implemented different classifiers: 
 - Random Forest
@@ -50,9 +50,9 @@ The selection of the best model was done experimentally by using the different p
 
 ## Results
 
-The f1-score (on test set) of the best performing model is **0.9706**. The model is a *SGD* with stemmer, token unigrams plus bigrams as features and emoticons replacement as pre-processing technique.
+The f1-score (on test set) of the best performing model is **0.9741**. The model is a *SGD* with stemmer, token unigrams plus bigrams as features and emoticons replacement as pre-processing technique.
 
-▶ Further details about data exploration, data preprocessing, model selection and results [see the project report](./report/report.pdf).
+▶ Further details about data exploration, data preprocessing, model selection and results [see the project report](./report/Report.pdf).
 
 ### References
 [1] The original dataset can be downloaded [here](http://dbdmg.polito.it/wordpress/wp-content/uploads/2020/01/dataset_winter_2020.zip) <br>
